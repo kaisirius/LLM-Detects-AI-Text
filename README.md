@@ -41,14 +41,6 @@ The Large Language Model (LLM) for detecting AI text is a machine learning proje
 - Soft Voting was chosen instead of Hard voting to introduce the concept of weights and its average over all the classes.
 - Voting Classifier provided us with a final prediction on the basis of weights of individual models used as mentioned above. Multinomial Naive Bayes was given a weight of 0.9 while Stochastic Gradient Descent Classifier was weighted with 0.91.
 
-Bayes Theorem: \( P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \)
-
-The update step in Stochastic Gradient Descent (SGD) is given by:
-\[ \theta_{t+1} = \theta_t - \eta \nabla J(\theta_t;x_i, y_i) \]
-
-The cost function \(J(\theta_t; x_i, y_i)\) for linear regression is given by:
-\[ J(\theta_t; x_i, y_i) = \frac{1}{2}(h_{\theta_t}(x_i) - y_i)^2 \]
-
 ## Challenges
 
 - Getting a score of greater than 0.9 was a challenging task. To do so I changed weights of voting and used only two models: naive bayes and stochastic gradient descent.
