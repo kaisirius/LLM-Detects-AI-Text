@@ -20,7 +20,8 @@ The Large Language Model (LLM) for detecting AI text is a machine learning proje
 - The very first step was to handle test and train data using the pandas library in Python. An external diverse dataset was imported from Kaggle to train the model.
 - Worked with Matplotlib library in Python to depict the dataset in the form of Pie charts and Bar graphs.
 - Cleaned the dataset by dropping the duplicate rows in the column named as text.
-
+![Pie_chart_external_dataset](Pie_chart_external_dataset.png)
+![bar_graph_skewed_dataset.png](bar_graph_skewed_dataset.png)
 ## Tokenization
 
 - Byte-Pair Encoding Tokenizer was adopted to break our dataset into tokens.
